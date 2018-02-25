@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>C:\Users\Dongyang.Xie\OSRAM\O06_Private\WiFi_Camera\FirmwareDev\WiFi_Camera\Application\Include\ov7670config.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>C:\Users\Dongyang.Xie\OSRAM\O06_Private\WiFi_Camera\FirmwareDev\WiFi_Camera\Application\Include\sccb.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>C:\Users\Dongyang.Xie\OSRAM\O06_Private\WiFi_Camera\FirmwareDev\WiFi_Camera\Application\Source\ov7670.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>C:\Users\Dongyang.Xie\OSRAM\O06_Private\WiFi_Camera\FirmwareDev\WiFi_Camera\Application\Source\sccb.c</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+
