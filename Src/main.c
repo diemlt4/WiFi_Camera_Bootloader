@@ -65,8 +65,8 @@
 #define OTA_ADDR_START          ((uint32_t)0x08060000)
 #define OTA_ADDR_END            ((uint32_t)0x0809FFFF)
 
-/* Bootloader version: V1.01 */
-#define BOOTLODER_VERSION       ((uint32_t)101)
+/* Bootloader version: V1.02 */
+#define BOOTLODER_VERSION       ((uint32_t)102)
 
 #define READ_BUF_SIZE           1024
 
@@ -210,6 +210,13 @@ int main(void)
         app_info.ota_length = 0;
         app_info.ota_crc = 0;
         write_flag = true;
+    }
+    
+    /* check bootloader version */
+    if(app_info.bootloader_version != BOOTLODER_VERSION)
+    {
+        app_info.bootloader_version = BOOTLODER_VERSION;
+        write_flag = true;        
     }
     
     /* write new app information */
